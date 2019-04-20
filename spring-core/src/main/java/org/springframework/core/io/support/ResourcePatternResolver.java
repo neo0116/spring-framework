@@ -51,7 +51,7 @@ import org.springframework.core.io.ResourceLoader;
  * @see org.springframework.context.ApplicationContext
  * @see org.springframework.context.ResourceLoaderAware
  */
-public interface ResourcePatternResolver extends ResourceLoader {
+public interface  ResourcePatternResolver extends ResourceLoader {
 
 	/**
 	 * Pseudo URL prefix for all matching resources from the class path: "classpath*:"
