@@ -56,6 +56,7 @@ public class FileSystemResourceLoader extends DefaultResourceLoader {
 
 
 	/**
+	 * 为什么要有 FileSystemContextResource 类的原因是，实现 ContextResource 接口，并实现对应的 #getPathWithinContext() 接口方法
 	 * FileSystemResource that explicitly expresses a context-relative path
 	 * through implementing the ContextResource interface.
 	 */
